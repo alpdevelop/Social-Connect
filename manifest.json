@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Social Links",
+  "version": "1.0.0",
+  "description": "A site lister that provides easy access to social media sites.",
+  "icons": {
+    "16": "./icon.png",
+    "48": "./icon.png",
+    "128": "./icon.png"
+  },
+  "permissions": ["tabs"],
+  "action": {
+    "default_icon": "./icon.png",
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.html", "app.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
